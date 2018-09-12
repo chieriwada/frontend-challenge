@@ -1,0 +1,83 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b2dfdb;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+
+.android {
+  background-color: #181918;
+  padding: 8vh 1.5vh;
+  border-radius: 6vh;
+  position: relative;
+}
+
+.screen {
+  width: 40vh;
+  height: 71.1vh;
+  position: relative;
+  background-color: #fff;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.android, .screen {
+  border: 0.5vh solid #000;
+}
+
+.status-bar {
+  width: 40vh;
+  height: 16px;
+  position: relative;
+  background-color: #F57C00;
+  z-index: 1;
+}
+
+.app-bar {
+  width: 40vh;
+  height: 44px;
+  position: relative;
+  background-color: #FF9800;
+  filter: drop-shadow(0 1px 1px gray);
+  z-index: ;
+}
+
+.back-arrow {
+  fill: #fff !important;
+  width: 3vh;
+  position: relative;
+  left: 2vh;
+  padding-top: 1.8vh;
+  float: left;
+}
+
+.app-bar h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #fff;
+  position: relative;
+  padding-top: 2.2vh;
+  padding-left: 4vh;
+  letter-spacing: 0.5px;
+  float: left;
+}
+
+.account {
+  fill: #fff !important;
+  width: 6.5vh;
+  position: relative;
+  padding-top: 1.55vh;
+  padding-right: 3.5vh;
+  float: right;
+}
