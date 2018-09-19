@@ -26,7 +26,7 @@ body {
   width: 40vh;
   height: 71.1vh;
   position: relative;
-  background-color: #fff;
+  background-color: #000;
   max-width: 100%;
   overflow: hidden;
 }
@@ -40,7 +40,6 @@ body {
   height: 2vh;
   position: relative;
   background-color: #F57C00;
-  z-index: 1;
 }
 
 .status-bar-icons {
