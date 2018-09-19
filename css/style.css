@@ -33,6 +33,7 @@ body {
 
 .android, .screen {
   border: 0.5vh solid #000;
+  z-index: 4;
 }
 
 .status-bar {
@@ -40,6 +41,7 @@ body {
   height: 2vh;
   position: relative;
   background-color: #F57C00;
+  z-index: 3;
 }
 
 .status-bar-icons {
@@ -56,7 +58,7 @@ body {
   position: relative;
   background-color: #FF9800;
   filter: drop-shadow(0 1px 1px gray);
-  z-index: 2;
+  z-index: 3;
 }
 
 .back-arrow {
@@ -93,7 +95,8 @@ body {
 .map-box {
   width: 40vh;
   position: relative;
-  filter: drop-shadow(0 1px 1px gray);
+  filter: drop-shadow(0 1px 2px gray);
+  border: 0;
   z-index: 2;
 }
 
@@ -160,7 +163,7 @@ body {
 
 .bus-line:hover {
   background-color: #FF9800;
-  border-bottom: 1px solid #FF9800;
+  border-bottom: 0;
   filter: drop-shadow(0 1.5px 2px gray);
   z-index: 1;
 }
@@ -207,24 +210,14 @@ body {
   letter-spacing: 0.1vh;
 }
 
-.eta-time h2 {
-  font-family: Roboto, sans-serif;
-  font-size: 0.6em;
-  color: #fff;
-  position: absolute;
-  left: 1.9vh;
-  padding-top: 4vh;
-  letter-spacing: 0.1vh;
-}
-
 .bus-line h3 {
   font-family: Roboto, sans-serif;
-  font-size: 2.3em;
-  font-weight: 600;
+  font-size: 2.1em;
+  font-weight: 500;
   color: #000;
   position: absolute;
   left: 9.5vh;
-  padding-top: 1vh;
+  padding-top: 1.5vh;
   letter-spacing: 0.1vh;
 }
 
