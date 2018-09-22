@@ -48,7 +48,7 @@ body {
   height: 1vh;
   filter: opacity(50%) brightness(200%);
   position: absolute;
-  margin-top: 0.4vh;
+  margin: 0.4vh auto;
   right: 2vh;
 }
 
@@ -61,35 +61,28 @@ body {
   z-index: 3;
 }
 
-.back-arrow {
-  position: absolute;
-  padding-top: 2vh;
-  left: 2vh;
-}
-
-.back-arrow img {
-  width: 2vh;
-}
-
 .app-bar h1 {
   font-family: Roboto, sans-serif;
-  font-size: 1.1em;
+  font-size: 2.2vh;
   font-weight: 400;
   color: #fff;
   position: absolute;
-  left: 8vh;
-  padding-top: 2vh;
+  margin: 2vh auto 2vh 7vh;
   letter-spacing: 0.1vh;
 }
 
-.account {
-  position: absolute;
-  padding-top: 1.9vh;
-  right: 3vh;
+.app-bar img {
+  width: 2vh;
 }
 
-.account img {
-  width: 2.1vh;
+#back-arrow {
+  position: absolute;
+  margin: 2vh auto 2vh 2vh;
+}
+
+#account {
+  position: absolute;
+  margin: 2vh auto 2vh 35vh;
 }
 
 .map-box {
@@ -194,79 +187,93 @@ body {
   position: absolute;
   margin: 1.5vh 0 1vh 2vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  border-radius: 6px;
+  border-radius: 1vh;
   background-color: #009688;
   filter: drop-shadow(0 1.5px 2px gray);
 }
 
 .eta-time h1 {
   font-family: Roboto, sans-serif;
-  font-size: 1.7em;
+  font-size: 1.5vh;
   font-weight: 500;
+  text-align: center;
   color: #fff;
   position: absolute;
+  margin-top: 1.5vh;
+  letter-spacing: auto;
+}
+
+.eta-time h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.2vh;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  margin-top: 3.5vh;
   letter-spacing: 0.1vh;
 }
 
 .bus-line h3 {
   font-family: Roboto, sans-serif;
-  font-size: 2.1em;
+  font-size: 3.8vh;
   font-weight: 500;
   color: #000;
   position: absolute;
-  left: 9.5vh;
-  padding-top: 1.5vh;
+  margin: 1.7vh auto 1.5vh 9.5vh;
   letter-spacing: 0.1vh;
 }
 
 .right-chevron {
-  width: 1.5vh;
+  width: 1.4vh;
   position: absolute;
-  top: 5.9vh;
+  top: 5.7vh;
   left: 9.7vh;
   z-index: 1;
 }
 
 .bus-line h4 {
   font-family: Roboto, sans-serif;
-  font-size: 0.8em;
+  font-size: 1.7vh;
   font-weight: 300;
   color: #757575;
   position: absolute;
-  left: 11.9vh;
-  top: 5.9vh;
+  margin: 5.7vh auto auto 11.6vh;
   letter-spacing: 0.1vh;
 }
 
-.bus-line h5 {
+.bus-times {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3vh;
+}
+
+.bus-times h5 {
   font-family: Roboto, sans-serif;
-  font-size: 0.9em;
+  font-size: 2vh;
   font-weight: 400;
   color: #000;
   position: absolute;
-  right: 3.3vh;
-  top: 2.2vh;
+  margin: 2.2vh 0vh auto auto;
+  padding-right: 0.8vh;
   letter-spacing: 0.05vh;
 }
 
 .real-time {
   width: 1.5vh;
   position: absolute;
-  top: 1.5vh;
-  right: 2.1vh;
+  margin: 1.4vh 0vh auto 0.3vh;
   z-index: 1;
 }
 
-.bus-line h6 {
+.bus-times h6 {
   font-family: Roboto, sans-serif;
-  font-size: 0.7em;
+  font-size: 1.4vh;
   font-weight: 300;
   color: #757575;
   position: absolute;
-  right: 3.3vh;
-  top: 4.6vh;
+  margin: 4.4vh 0vh auto auto;
   text-align: right;
   line-height: 1.1em;
   letter-spacing: 0.05vh;
